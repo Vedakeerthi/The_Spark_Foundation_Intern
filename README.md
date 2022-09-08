@@ -11,8 +11,11 @@ Predict the percentage of an student based on the number of study hours, this is
 model is implemented and the cost function of the model is calculated and it is further optimized using gradient descent algorithm, and the model is evaluated using the following metrics : 
 1. Mean squared error
 2. Root mean squared error
-3. R2 error
+3. R2 error.
+
 According to the task query, it is said to predict the student score when he studies at a rate of 9.25 hours per day.
+
 So, the results are :
+
 1. Based on the implementation from sklearn if a student studies 9.25 hrs a day he will score : 89.99093062789352
 2. Based on the implementation from scratch if a student studies 9.25 hrs a day he will score : 92.97420126293007
