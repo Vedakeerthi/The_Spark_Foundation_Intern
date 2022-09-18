@@ -19,3 +19,15 @@ So, the results are :
 
 1. Based on the implementation from sklearn if a student studies 9.25 hrs a day he will score : 89.99093062789352
 2. Based on the implementation from scratch if a student studies 9.25 hrs a day he will score : 92.97420126293007
+
+## Task 6 : Prediction using decision tree algorithm
+
+The query about this task is to create a decision tree and to visualize it graphically and to make the decision tree predict the output class based on the new data. The decision tree is implemented from sklearn, the decision tree is visualized using two methods
+
+1. Text representation : 
+The whole decision tree model which is trained using the train dataset, is represented and visualized using text, using this representation we can know which feature has the highest information gain based on the model, eventhough you can't able to clearly in case of text representation, we can visualize it graphically.
+
+2. Graphical representation : 
+Here the model is represented graphically, this graphical representation is imported from the tree class of the sklearn library, it requires other two parameters such as the feature name of the dataset and the class name of the dependent variable, and further you can also export the graph as a png file for further reference.
+
+Once the decision tree is visualized, then the model can be used to predict the test data, so the model has predicted the test data, and the accuracy of the model is evaluated using the score function of the model, so the accuracy of the model is 0.91111 which is quiet good for the decision tree model.
